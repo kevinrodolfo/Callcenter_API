@@ -1,0 +1,17 @@
+﻿{
+  "sqlServer": {
+    "ServerName": "KEVINHP\\SQLEXPRESS",
+    "Database": "league2022",
+    "User": "sas",
+    "Password": "sa"
+  },
+    "Root" : "https://localhost:8080/league/",
+  "Files": {
+    "logos": "logos",
+    "players": "players"
+  },
+  "Format": {
+    "Date": "yyy-mm-dd",
+    "Time":  "hh:mm"
+  }
+}
