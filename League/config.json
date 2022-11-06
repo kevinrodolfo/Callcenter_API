@@ -1,11 +1,11 @@
 ﻿{
   "sqlServer": {
     "ServerName": "KEVINHP\\SQLEXPRESS",
-    "Database": "league2022",
+    "Database": "callcenter2022",
     "User": "sas",
     "Password": "sa"
   },
-    "Root" : "https://localhost:8080/league/",
+    "Root" : "https://localhost:8080/callcenter/",
   "Files": {
     "logos": "logos",
     "players": "players"

@@ -5,7 +5,7 @@ namespace Callcenter.Controllers
 
     [Route("api/[controller]")]
     [ApiController]
-    public class GameController : ControllerBase
+    public class SessionsController : ControllerBase
     {
         // GET: api/<TeamController>
         [HttpGet]
@@ -21,9 +21,9 @@ namespace Callcenter.Controllers
                 //validate token
                 if (Security.ValidateToken(username, token))
                 {
-                    GameListViewModel vm = new GameListViewModel();
+                    SessionsListViewModel vm = new SessionsListViewModel();
                     vm.Status = 0;
-                    vm.Games = Game.GetAll();
+                    vm.Sessions = Sessions.GetAll();
                     return Ok(vm);
                 }
                 else
